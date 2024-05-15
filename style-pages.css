@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000020;
+    font-family: sans-serif;
+    background-image: url('images/earth-sunrise.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(237, 237, 151);
+    text-shadow:
+          0 0 7px #4d10be,
+          0 0 10px #4d10be,
+          0 0 31px #fff,
+          0 0 55px rgb(245, 6, 6),
+          0 0 91px rgb(245, 4, 4),
+          0 0 100px rgb(243, 7, 7),
+          0 0 122px rgb(255, 226, 4),
+          0 0 140px rgb(255, 226, 4);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+p.intro {
+    font-size: 26px;
+    font-weight: 200;
+    text-shadow: 0 0 10px #000000;
+}
+
+#content {
+    margin-bottom: 50px;
+    padding: 8px;
+}
+
+#video {
+    width: 100%;
+}
+
+/* ================= BOTTOM TABS =============== */
+#tabs-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: linear-gradient(#007dc1, #0061a7);
+    border-radius: 3px;
+    border: 1px solid #124d77;
+}
+
+#tabs-bottom a {
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    padding-top: 18px;
+    transition: all 1s ease-out;
+}
+
+#tabs-bottom a:hover {
+    transform: scale(1.5);
+}
